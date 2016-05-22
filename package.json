@@ -1,6 +1,6 @@
 {
   "name": "load-settings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This package loads a settings.js file on root directory and made it available everywhere by require('load-settings')",
   "main": "index.js",
   "scripts": {
