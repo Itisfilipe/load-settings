@@ -1,0 +1,24 @@
+{
+  "name": "load-settings",
+  "version": "0.0.1",
+  "description": "This package loads a settings.js file on root directory and made it available everywhere by require('load-settings')",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfilipe/load-settings.git"
+  },
+  "keywords": [
+    "settings",
+    "load",
+    "config"
+  ],
+  "author": "Filipe T. Amaral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xfilipe/load-settings/issues"
+  },
+  "homepage": "https://github.com/xfilipe/load-settings#readme"
+}
