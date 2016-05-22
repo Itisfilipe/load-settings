@@ -8,8 +8,7 @@ This package loads a settings.js file on root directory and made it available ev
 npm install load-settings --save
 ```
 
-
-# How this works
+## How this works
 
 First, inside your root directory create a file **settings.js** and inside of this file put your variables on a JSON document.
 
@@ -30,5 +29,5 @@ module.exports = {
 Then anytime you want your settings variables just use
 ```javascript
   var settings = require("load-settings");
-  settings.PROJECT_DIR; 
+  var root_path = settings.PROJECT_DIR; 
 ```
